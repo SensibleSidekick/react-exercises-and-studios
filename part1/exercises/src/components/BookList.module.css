@@ -1,0 +1,25 @@
+.bookImg1 {
+    width: 304px;
+}
+
+.bookImg2{
+    width: 300px;
+}
+
+.bookImg3 {
+    width: 291.75px;
+}
+
+.bookHeading {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 99, 48);
+}
+
+.bookList {
+    background-color: rgb(182, 178, 178);
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 8px;
+}

@@ -1,0 +1,22 @@
+.hobby{
+    text-align: right;
+    margin-top: -25%;
+    margin-right: 5%;
+    margin-left: 91%;
+    padding: 8px;
+    background-color:rgb(182, 178, 178);
+    border-radius: 25px;
+}
+
+
+.hobbyHeading {
+    text-decoration: underline;
+    color: rgb(84, 21, 231);
+    margin: auto;
+
+}
+
+.hobbyLink{
+    color:rgb(4, 47, 238);
+    margin:auto;
+}
