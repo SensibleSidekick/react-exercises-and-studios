@@ -1,5 +1,6 @@
 import data from '../data.json';
 import { useState } from 'react';
+import projects from '../data.json';
 
 export default function MyProjects() {
    const [index, setIndex] = useState(0);
@@ -23,9 +24,9 @@ export default function MyProjects() {
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.name} the {project.race} {project.class}
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img src={project.img}/>
     </div>
   );
 }
